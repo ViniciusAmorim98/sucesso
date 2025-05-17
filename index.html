@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviado</title>
+    <link rel="stylesheet" href="ceu.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: black;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .caixa{
+            border: solid 1px #f5af5e;
+            padding: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            border-radius: 15px;
+            background: transparent;
+            backdrop-filter: blur(3px);
+            box-shadow: 0 0 15px #f5af5e86;
+        }
+        h1{
+            font-size: 2.5em;
+        }
+
+        button{
+            padding: 15px;
+            width: 40%;
+            border-radius: 10px;
+            border: none;
+            background: #f5af5e;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+         @media (min-width: 300px) and (max-width:500px) {
+            .caixa{
+                margin: 0 10%;
+                gap: 20px;
+            }
+
+            h1{
+                font-size: 1.5em;
+            }
+
+            button{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!--efeito estrelas-->
+    <div class="container-ceu">
+        <div class="bolhas">
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:26"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:26"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+        </div>
+    </div>
+    <!--efeito estrelas-->
+
+
+    <div class="caixa">
+        <h1>
+            Formulário enviado com sucesso!
+        </h1>
+
+        <p>
+            Recebemos suas informações e em breve entraremos em contato.
+        </p>
+
+        <button onclick="retornar()">Retornar ao site</button>
+    </div>
+
+    <script>
+        function retornar(){
+            window.location.hrf = 'https://viniciusamorim98.github.io/mmj'
+        }
+    </script>
+    
+</body>
+</html>
